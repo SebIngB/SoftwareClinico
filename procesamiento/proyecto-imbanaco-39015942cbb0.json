@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "proyecto-imbanaco",
+  "private_key_id": "39015942cbb0e1c47d1002ca186095faee953ee9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClN9d36QX7KQHi\nGfwb6EhTjzd0XnB020Jr5fFBm1BYZbM2waMx4MJG2d/dpDb2tUNpHX95v1imdywF\ns+SuwqreJjyY2OK2YgwYvorLyEgSAHE/oTc39Bq6tLIH9Iof4SH2sh19AvXa1yiQ\nqFFEQouov0gx7TLwPX9mNslk1C80A7lWJhYXLmMj9GDVKKiv0S50tdTBucpflzfe\nGZ8fs6Eamgnt6PuZAihCa6s90YpV+yEhkmupMQ8FOesAzwq2LPfMetwvxX1oWfJE\nNW8UZ9cLlnBWV6038HHcuwREWHZNYRyLheFdGo5WMeGr9p3loZXu4RAT7QbM8OlQ\nx0nztpJvAgMBAAECggEAFfGnSDFmjnfhXKcH4asF5DdK7cVXWWX/2fXmB8k5sCv9\n1CF+6/KGy0NH5RfZBwaHSBBXbJO6Eg4VBkLg9kc7y5q3hLOV1RSLt8OjCrL0w5NU\nd1eRzng5DqBOXxkfOWG9EZeRrBd3ERRvulroxFC0XPre+2aeU+NPJwPS1vYJuPYo\n+Hpw/nznKG+FRai0FHz8IzhUVUbYvgEUXQW9U8LepOUGR8fk+oyATJcvrGgQAINz\nv3HXxksG0ZHGlQIm+we0nbYdJB2GZMQIG6T55PPlkpz9zoBmVg8PIkjltEJvzlwB\nrUd+pQrGRo1mzfyNZ8yu9tyYn9jZfMgSfrT+OCuJSQKBgQDXaZGYnlpbfw2DHEh4\nLW+zBpuBCBbvk0O/lXzn0jeUYvE1Du9PBp6d2HlzAsr6FluDgN2U5z9vTT4giaaF\n617BMMV9NY/a0eBlTnTngG1ujYu+H9zdigKK0fxaQZ9QGm/ecdEso7UKZ5yECaAv\nycxWd1u/aNI54NA4L8yXR05LxwKBgQDEWSZhLnuLnKWkpYoR273L8ueubDV2nfsj\n/co3xA9pYXunCobGqQU94tn2mWkLuXiFpZm7JvkqD5QlM69GqHa6jxl4+BoQGjRp\nR8Y4JL2d5pe8CTYof8Ixhw9sq9s/jnUSehPhEtH8Lh5kOavem0ssr+1xH8KxWLj/\noXypyW10GQKBgQDUm9GkPMcZ/3Cqs0OjudTBcggRdpaMp2D6uuSpOga5Yl6H69Gu\nwe3UBVD5fwwvgdmZFZud2A/4Htju7G17SDAhpa2GQ1NUukksNB+WTl+z+eivImuw\nDQMtWMwlmRdQzIcVmmjGEl4hgtosSAPepuIThYL8jMzRa16X1jWsKijRCQKBgDC2\n/bK22ag14VMMT0lG/7wONDUuW8VmRN0VJorXdgtrSEaVcgLwBIDqO7HXNhzWk3R1\nNcMdVEx/OP5R6HbbbTm0L1m4FJ9SIRbN2/wqAXGfuJ3Km0lJCWFIZSdNLESEj79Z\n0nzRMpAi0R+Ev4One+tGat7aRm/B14R1CH0HoMRhAoGAeYbTc3YnXCvbqpTKOdnV\nHmiSC4YtYtMATn6YFmQv9kJN05m0tasIFOHr55f2ZasYbGMILRAaEuGjo65p5WIC\n01og3TBRotKQN2h3TA4thNzBOYci5zTo9NeBVtKdBY1tcd7FAoxxRpsD0SxeGXLY\nGvb58946XKNS7FJh7xNQP1Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "consulta-base-de-datos-imbanac@proyecto-imbanaco.iam.gserviceaccount.com",
+  "client_id": "113540898493710372093",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/consulta-base-de-datos-imbanac%40proyecto-imbanaco.iam.gserviceaccount.com"
+}
