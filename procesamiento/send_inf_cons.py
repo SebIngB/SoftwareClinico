@@ -16,9 +16,16 @@ def send_information(data, worksheet, column_common, column_data):
     amount_min_cons = 50 # Cantidad de elementos a enviar
 
     # Calcular cuántos ciclos se necesitan
+    print(len(data))
     num_ciclos_cons = len(data) // amount_min_cons
     start_time_cons = time.perf_counter()
     fin = 0
+
+    if num_ciclos_cons <= 0:
+        num_ciclos_cons = 1
+        amount_min_cons = len(data)
+        print('menor a 1')
+
     print(f'Faltan {num_ciclos_cons} minutos')
 
     for i in range(num_ciclos_cons):
@@ -28,22 +35,21 @@ def send_information(data, worksheet, column_common, column_data):
             
         buscar = data[inicio:fin][column_common].values
         enviar = data[inicio:fin][column_data].values
-
+        print(f'seriales {buscar}')
+        print(f'elementos a enviar {enviar}')
         for fil in buscar:
             Serial.append(worksheet.find(f"{fil}"))# type: ignore
   
         elementos_a_enviar_cons = Serial[inicio:fin]
-
-        co = 0
-        
+        print(elementos_a_enviar_cons)
         while number > 0:
             indice = (number - 1) % 26
             resp = letras[indice] + resp
             number = (number - 1) // 26
-
-        for i in elementos_a_enviar_cons:
-            column_sheet_data_cons = f'{resp}{i.row}'
-            worksheet.update(column_sheet_data_cons,f'{enviar[co]}')# type: ignore
+        co = 0
+        for e in elementos_a_enviar_cons:
+            column_sheet_data_cons = f'{resp}{e.row}'
+            worksheet.update(column_sheet_data_cons,f'{enviar[i]}')# type: ignore
             co += 1
             print(f've{co}')
 
@@ -59,9 +65,11 @@ def send_information(data, worksheet, column_common, column_data):
 
 
     print('termino ciclo')
-
+   
     print(fin)
-    buscar = data[fin][column_common].values
+    print(data[fin:][column_common])
+    buscar = data[fin:][column_common].values
+    print(f'elementos a buscar 2{buscar}')
 
     for fil in buscar:
         Serial.append(worksheet.find(f"{fil}"))# type: ignore
@@ -71,9 +79,9 @@ def send_information(data, worksheet, column_common, column_data):
         # Obtener los elementos restantes
             ubi_data_cons = Serial[num_ciclos_cons * amount_min_cons:]
             enviar = data[num_ciclos_cons * amount_min_cons:][column_data].values
-
+            print(f'elementos a enviar 2 {buscar} {enviar}')
             co = 0
-
+            print(f'ubicaciones {buscar}')
             for i in ubi_data_cons:
                     
                 ubi_sheet_data_cons = f'{resp}{i.row}'

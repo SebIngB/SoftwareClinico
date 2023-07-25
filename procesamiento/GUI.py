@@ -1,11 +1,11 @@
 import tkinter as tk
 from tkinter import ttk
 from procesamiento.base_datos import database 
-import pandas as pd
-from gspread_dataframe import set_with_dataframe 
-import time
-import datetime
-from collections import Counter
+#import pandas as pd
+#from gspread_dataframe import set_with_dataframe 
+#import time
+#import datetime
+#from collections import Counter
 from procesamiento.select_sheets import view_select
 from procesamiento.modificar_view import modify_view
 from procesamiento.config_consult import process
